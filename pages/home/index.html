@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,10 +11,41 @@
     <link rel="stylesheet" href="/styles/globalStyles.css">
     <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
-    <main id="app"></main>
+    <header>
+        <div class="nav">
+            <nav class="navbar container">
+                <h1 class="title-1">Control <span>Finance</span></h1>
+                <button class="register">Registrar novo valor</button>
+            </nav>
+        </div>
+    </header>
+    <main id="app" class="main container">
+        <div class="resume">
+            <div class="resume__text">
+                <h4 class="title-2">Resumo financeiro</h4>
+                <ul>
+                    <li>
+                        <button id="all" class="btn__resume">Todos</button>
+                        <button id="entries" class="btn__resume">Entradas</button>
+                        <button id="outflow" class="btn__resume">Saídas</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="sum__values">
+        </div>
+        <div class="values">
+            <div class="values__div">
+                <ul class="values__list">
+                </ul>
+            </div>
+        </div>
+    </main>
     <script src="/scripts/modal.js"></script>
     <script src="valuesData.js"></script>
     <script src="index.js"></script>
 </body>
+
 </html>

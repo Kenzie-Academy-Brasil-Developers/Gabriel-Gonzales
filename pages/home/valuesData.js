@@ -1,4 +1,5 @@
 const valuesCategory = ["Entrada", "Saída"];
+const valuesList = document.querySelector(".values__list")
 
 let insertedValues = [
   {
@@ -17,3 +18,5 @@ let insertedValues = [
     categoryID: 0,
   },
 ];
+
+
