@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,6 +11,7 @@
     <link rel="stylesheet" href="/styles/globalStyles.css">
     <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
     <header>
         <div class="nav">
@@ -17,7 +19,7 @@
                 <h1 class="title-1">Control <span>Finance</span></h1>
                 <button class="register">Registrar novo valor</button>
             </nav>
-        </div>   
+        </div>
     </header>
     <main id="app" class="main container">
         <div class="resume">
@@ -25,92 +27,25 @@
                 <h4 class="title-2">Resumo financeiro</h4>
                 <ul>
                     <li>
-                        <button class="btn__resume">Todos</button>
-                        <button class="btn__resume">Entradas</button>
-                        <button class="btn__resume">Saídas</button>
+                        <button id="all" class="btn__resume">Todos</button>
+                        <button id="entries" class="btn__resume">Entradas</button>
+                        <button id="outflow" class="btn__resume">Saídas</button>
                     </li>
                 </ul>
             </div>
         </div>
         <div class="sum__values">
-            <div class="sum__values__text">
-                <p>Soma dos valores</p>
-                <p>R$ 2.120,00</p>
-            </div>
         </div>
         <div class="values">
             <div class="values__div">
                 <ul class="values__list">
-                    <li class="values__li">
-                        <p>R$ 40,00</p>
-                        <div class="btn__values">
-                            <button class="btn__type">Entrada</button>
-                            <figure class="figure__trash">
-                                <img class="btn__trash" src="../../assets/trash.png" alt="trash">
-                            </figure>
-                        </div>
-                    </li>
-                    <li class="values__li">
-                        <p>R$ 40,00</p>
-                        <div class="btn__values">
-                            <button class="btn__type">Entrada</button>
-                            <figure class="figure__trash">
-                                <img class="btn__trash" src="../../assets/trash.png" alt="trash">
-                            </figure>
-                        </div>
-                    </li>
-                    <li class="values__li">
-                        <p>R$ 40,00</p>
-                        <div class="btn__values">
-                            <button class="btn__type">Entrada</button>
-                            <figure class="figure__trash">
-                                <img class="btn__trash" src="../../assets/trash.png" alt="trash">
-                            </figure>
-                        </div>
-                    </li>
-                    <li class="values__li">
-                        <p>R$ 40,00</p>
-                        <div class="btn__values">
-                            <button class="btn__type">Entrada</button>
-                            <figure class="figure__trash">
-                                <img class="btn__trash" src="../../assets/trash.png" alt="trash">
-                            </figure>
-                        </div>
-                    </li>
                 </ul>
             </div>
         </div>
-        <!-- <div class="modal">
-            <div class="modal__itens">
-                <div class="modal__title">
-                    <div class="modal__text">
-                        <h2 class="title__3">Registro de valor</h2>
-                        <div class="button__close">
-                            <button class="btn__close">X</button>
-                        </div>
-                    </div>
-                    <div class="modal__description">
-                        <p>Digite o valor e em seguida aperte no botão referente ao tipo do valor </p>
-                    </div>
-                    <div class="modal__values">
-                        <p>Valor</p>
-                        <input class="input__value" type="text" placeholder="R$ 00,00">
-                    </div>
-                    <div class="button__type__value">
-                        <p>Tipo de valor</p>
-                        <button class="btn__type__value">Entrada</button>
-                        <button class="btn__type__value">Saída</button>
-                    </div>
-                    <div class="modal__button">
-                        <button class="btn__cancel">Cancelar</button>
-                        <button class="btn__insert">Inserir Valor</button>
-                    </div>
-                </div>
-            </div>
-        </div> -->
     </main>
     <script src="/scripts/modal.js"></script>
     <script src="valuesData.js"></script>
     <script src="index.js"></script>
 </body>
+
 </html>

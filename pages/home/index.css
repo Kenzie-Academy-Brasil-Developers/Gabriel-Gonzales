@@ -317,3 +317,15 @@ span {
 .btn__insert:hover {
     background-color: var(--color-brand-2);
 }
+
+.btn__resume:focus {
+    border: 1.5px solid var(--color-brand-1);
+    color: var(--color-brand-1);
+    background-color: var(--color-brand-3);
+}
+
+.btn__type__value:focus {
+    border: 1.5px solid var(--color-brand-1);
+    color: var(--color-brand-1);
+    background-color: var(--color-brand-3);
+}
